@@ -10,11 +10,20 @@
 
   <main class="min-h-screen flex flex-col items-center justify-center text-center p-8 space-y-6">
 
-    <!-- 👤 Name + Title -->
-    <h1 id="hero-name" class="text-5xl font-bold text-indigo-500">Deekshitha Gaddameedhi</h1>
-    <h2 class="text-2xl">Java Full Stack Developer</h2>
-    <p class="text-lg max-w-xl">Crafting Scalable, Cloud-Native Applications across Finance, Healthcare & E-Commerce</p>
+    <!-- 👤 Name + Profile Image Section -->
+    <div class="flex flex-col md:flex-row items-center justify-center gap-6 mt-8">
+      <div class="text-center md:text-left">
+        <h1 id="hero-name" class="text-5xl font-bold text-indigo-500">Deekshitha Gaddameedhi</h1>
+        <h2 class="text-2xl mt-2">Java Full Stack Developer</h2>
+        <p class="text-lg max-w-xl mt-2">
+          Crafting Scalable, Cloud-Native Applications across Finance, Healthcare & E-Commerce
+        </p>
+      </div>
 
+      <div class="mt-4 md:mt-0">
+        <img src="/deeks.jpg" alt="Deekshitha Gaddameedhi" class="rounded-full w-32 h-32 object-cover shadow-md ring-2 ring-indigo-500" />
+      </div>
+    </div>
     <!-- 🔗 Buttons -->
     <div class="flex flex-wrap justify-center gap-4">
       <a href="https://www.linkedin.com/in/gdeekshitha/" target="_blank" class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded">LinkedIn</a>
@@ -72,7 +81,7 @@
       </div>
 
       <div class="bg-gray-800 rounded-xl p-6 scroll-fade shadow-lg">
-        <h3 class="text-xl font-semibold text-blue-400">Saraswat Bank (LTI)</h3>
+        <h3 class="text-xl font-semibold text-blue-400">LTIMindtree</h3>
         <p class="text-sm text-gray-300 mt-2">Cloud-native apps with Quarkus, Kubernetes, GCP Pub/Sub & BigQuery. Used ArgoCD & Tekton for DevOps automation.</p>
       </div>
 
@@ -90,34 +99,39 @@
     <div class="grid md:grid-cols-2 gap-4">
 
       <div class="bg-gray-800 rounded-lg p-4 scroll-fade shadow-md">
-        <h4 class="text-lg font-semibold text-green-400">Brute Force Detection (Splunk)</h4>
-        <p class="text-sm text-gray-300 mt-1">Detected brute-force attacks using EventCode 4625. Real-time dashboards + email alerts in Splunk.</p>
+        <h4 class="text-lg font-semibold text-green-400">Online Grocery Shopping system</h4>
+        <p class="text-sm text-gray-300 mt-1">A full-stack web application for customers to browse, add to cart, and securely checkout groceries online. Includes an admin dashboard to manage inventory, products, feedback, and orders.</p>
         <div class="flex gap-3 mt-2 text-sm">
-          <a href="https://github.com/deekshitha430/splunk-brute-force" class="text-blue-400 hover:underline">GitHub</a>
+          <a href="https://github.com/deekshitha430/online_grocery" class="text-blue-400 hover:underline">GitHub</a>
         </div>
       </div>
 
       <div class="bg-gray-800 rounded-lg p-4 scroll-fade shadow-md">
         <h4 class="text-lg font-semibold text-green-400">Cloud Quiz App (IBM Code Engine)</h4>
-        <p class="text-sm text-gray-300 mt-1">Deployed containerized JavaScript quiz app using IBM Cloud Code Engine.</p>
+        <p class="text-sm text-gray-300 mt-1">Deployed a containerized JavaScript-based quiz application using IBM Cloud Code Engine. Leveraged cloud-native architecture for scalability and efficiency in deployment.</p>
         <div class="flex gap-3 mt-2 text-sm">
-          <a href="https://github.com/deekshitha430/ibm-cloud-quiz" class="text-blue-400 hover:underline">GitHub</a>
+          <a href="https://github.com/deekshitha430/IBM_codeEngine_Quiz" class="text-blue-400 hover:underline">GitHub</a>
         </div>
       </div>
 
       <div class="bg-gray-800 rounded-lg p-4 scroll-fade shadow-md">
-        <h4 class="text-lg font-semibold text-green-400">ConnectMe – Video Streaming App</h4>
-        <p class="text-sm text-gray-300 mt-1">Live WebRTC video chat with React, Redux, and AWS Lambda. Integrated socket-based signaling.</p>
+        <h4 class="text-lg font-semibold text-green-400">ConnectMe – Live Video App (JPMC Code for Good)</h4>
+        <p class="text-sm text-gray-300 mt-1">
+          Developed a live video communication app during JPMorgan Chase’s <strong>Code for Good 2024</strong> hackathon in Covid-19. 
+          Designed to help students continue learning during COVID-19 using live video communication (WebRTC), React, Redux, and AWS Lambda for backend logic and scalability. </p>.
+        </p>
         <div class="flex gap-3 mt-2 text-sm">
-          <a href="https://github.com/deekshitha430/connectme-webrtc" class="text-blue-400 hover:underline">GitHub</a>
+          <span class="text-gray-400 italic">Private Repository</span>
+          <a href="https://careers.jpmorgan.com/us/en/students/programs/code-for-good" target="_blank" class="text-blue-400 hover:underline">About the Hackathon</a>
         </div>
       </div>
+      
 
       <div class="bg-gray-800 rounded-lg p-4 scroll-fade shadow-md">
         <h4 class="text-lg font-semibold text-green-400">ASL Recognition</h4>
-        <p class="text-sm text-gray-300 mt-1">Sign language gesture recognition using TensorFlow + OpenCV. Flask API served real-time predictions.</p>
+        <p class="text-sm text-gray-300 mt-1">Implemented American Sign Language recognition using deep learning techniques. Built and trained a CNN model with TensorFlow and Keras to classify hand gestures, enhancing accessibility through computer vision.</p>
         <div class="flex gap-3 mt-2 text-sm">
-          <a href="https://github.com/deekshitha430/asl-sign-detector" class="text-blue-400 hover:underline">GitHub</a>
+          <a href="https://github.com/deekshitha430/ASL_recognition_DLApproach" class="text-blue-400 hover:underline">GitHub</a>
         </div>
       </div>
 
@@ -151,23 +165,23 @@
     <!-- AWS -->
     <li class="flex items-center gap-3 justify-center">
       <img src="https://images.credly.com/size/680x680/images/0e284c3f-5164-4b21-8660-0d84737941bc/image.png" alt="AWS" class="h-8 w-8 rounded-full" />
-      <a href="https://www.credly.com/badges/6e3b53d5-b2d8-4580-bdf5-123aaea00146/linked_in?t=spfcu3" target="_blank" class="text-yellow-400 font-semibold hover:underline">
+      <a href="https://www.credly.com/badges/6e3b53d5-b2d8-4580-bdf5-123aaea00146/linked_in?t=spfcu3" target="_blank" class="font-semibold hover:underline">
         AWS Certified Solutions Architect – Associate (2024)
       </a>
     </li>
 
     <!-- Oracle Gen AI -->
     <li class="flex items-center gap-3 justify-center">
-      <img src="https://brm-workforce.oracle.com/pdf/certview/images/OCI2024GAIOCP.png" alt="Oracle" class="h-6 w-6" />
-      <a href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=31E72D4720501E2E7FC5ACF70BAA2229F3A1654D92F552C23F208398B3F84737" target="_blank" class="hover:underline">
+      <img src="https://brm-workforce.oracle.com/pdf/certview/images/OCI2024GAIOCP.png" alt="Oracle" class="h-8 w-14" />
+      <a href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=31E72D4720501E2E7FC5ACF70BAA2229F3A1654D92F552C23F208398B3F84737" target="_blank" class="font-semibold hover:underline">
         Oracle OCI Generative AI Certified Professional (2024)
       </a>
     </li>
 
     <!-- Oracle Foundations -->
     <li class="flex items-center gap-3 justify-center">
-      <img src="https://brm-workforce.oracle.com/pdf/certview/images/OCI2024FNDCFA.png" alt="Oracle" class="h-6 w-6" />
-      <a href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=31E72D4720501E2E7FC5ACF70BAA2229BEC4FC70AF05C0A6A6E2B14C8145185C" target="_blank" class="hover:underline">
+      <img src="https://brm-workforce.oracle.com/pdf/certview/images/OCI2024FNDCFA.png" alt="Oracle" class="h-8 w-14" />
+      <a href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=31E72D4720501E2E7FC5ACF70BAA2229BEC4FC70AF05C0A6A6E2B14C8145185C" target="_blank" class="font-semibold hover:underline">
         Oracle OCI Foundations Associate (2024)
       </a>
     </li>
@@ -175,7 +189,7 @@
     <!-- edX Prompt Engineering -->
     <li class="flex items-center gap-3 justify-center">
       <img src="data:image/jpeg;base64,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" alt="edX" class="h-6 w-6" />
-      <a href="https://courses.edx.org/certificates/1f8dfec9d7cc4fceb3d3a97bbabad82c" target="_blank" class="hover:underline">
+      <a href="https://courses.edx.org/certificates/1f8dfec9d7cc4fceb3d3a97bbabad82c" target="_blank" class="font-semibold hover:underline">
         edX: Prompt Engineering & Advanced ChatGPT (Nov 2023)
       </a>
     </li>
@@ -183,7 +197,7 @@
     <!-- Coursera React -->
     <li class="flex items-center gap-3 justify-center">
       <img src="data:image/png;base64,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" alt="Coursera" class="h-6 w-6" />
-      <a href="https://www.coursera.org/account/accomplishments/certificate/2M6FSF2M4SNG" target="_blank" class="hover:underline">
+      <a href="https://www.coursera.org/account/accomplishments/certificate/2M6FSF2M4SNG" target="_blank" class="font-semibold hover:underline">
         Coursera: Developing Front-End Apps with React
       </a>
     </li>
