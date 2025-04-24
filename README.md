@@ -3,7 +3,7 @@
 Welcome to my personal portfolio website!  
 This site showcases my skills, work experience, certifications, and personal projects — all built using modern web technologies.
 
-🌐 **Live Site**: [https://your-netlify-site.netlify.app](https://your-netlify-site.netlify.app)
+🌐 **Live Site**: [https://your-netlify-site.netlify.app](https://your-netlify-site.netlify.app)](https://medeekshithaportfolio.netlify.app/)
 
 ---
 
